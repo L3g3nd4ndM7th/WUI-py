@@ -1,1 +1,26 @@
-readme
+Run mainGame.py
+
+Classes:
+cell
+gamemap
+
+Global object:
+game
+
+Tools:
+Select
+Paint
+Place node
+Place text
+Place path
+Clear path
+Delete
+
+Keybinds:
+arrow keys (movement)
+
+imports:
+tkinter
+tkinter tkk
+Pillow
+tkcolorpicker
