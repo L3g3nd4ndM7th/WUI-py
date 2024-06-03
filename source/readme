@@ -3,6 +3,7 @@ Run mainGame.py
 Classes:
 cell
 gamemap
+canvas
 
 Global object:
 game
