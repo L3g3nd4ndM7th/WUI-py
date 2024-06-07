@@ -1,14 +1,29 @@
-Run mainGame.py
+This is an editor for a computer game that i'm making.
+There are still features I need to add.
+Such as room objects, npcs, monsters, etc.
+Eventually, I will upload the game app itself.
+Then you can create maps, game objects, npcs, monsters and test them out.
+The game will also have combat feature for fighting with multiple allies and multiple monsters.
+To get started, Run main.py. Check out imports below if you have any problems.
+If you encounter any errors or think I can improve this app, please give me feedback.
 
-Classes:
+imports:
+tkinter
+tkinter tkk
+Pillow
+tkcolorpicker
+
+objects:
+game
+ui
 cell
 gamemap
 canvas
 
-Global object:
-game
-
 Tools:
+new map
+export map
+load map
 Select
 Paint
 Place node
@@ -19,9 +34,3 @@ Delete
 
 Keybinds:
 arrow keys (movement)
-
-imports:
-tkinter
-tkinter tkk
-Pillow
-tkcolorpicker
