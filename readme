@@ -4,6 +4,8 @@ Such as room objects, npcs, monsters, etc.
 Eventually, I will upload the game app itself.
 Then you can create maps, game objects, npcs, monsters and test them out.
 The game will also have combat feature for fighting with multiple allies and multiple monsters.
+Currently there are a few general map themes to experiment with the editor.
+They still need some work because the colors and room types aren't that great but it's just for testing.
 To get started, Run main.py. Check out imports below if you have any problems.
 If you encounter any errors or think I can improve this app, please give me feedback.
 
