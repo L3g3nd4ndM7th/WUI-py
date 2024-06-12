@@ -1,0 +1,190 @@
+{
+    "guideGeneral": {
+        "start": {
+            "text": "Welcome, traveler! How can I assist you?",
+            "responses": {
+                "I need directions.": "directions",
+                "I'm searching for someone.": "searching",
+                "Just exploring.": "exploring"
+            }
+        },
+        "directions": {
+            "text": "Where to?",
+            "responses": {
+                "Nearest town.": "town",
+                "Ancient ruins.": "ruins"
+            }
+        },
+        "searching": {
+            "text": "Who are you looking for?",
+            "responses": {
+                "A merchant.": "merchant",
+                "A warrior.": "warrior"
+            }
+        },
+        "exploring": {
+            "text": "Watch out for wild beasts.",
+            "responses": {
+                "Thanks.": "end",
+                "I'll be careful.": "end"
+            }
+        },
+        "town": {
+            "text": "Eastward path leads to town.",
+            "responses": {
+                "Thank you.": "start",
+                "Appreciated.": "start"
+            }
+        },
+        "ruins": {
+            "text": "West, but beware of dangers.",
+            "responses": {
+                "I'll be cautious.": "start",
+                "Thanks.": "start"
+            }
+        },
+        "merchant": {
+            "text": "Find them in the town square.",
+            "responses": {
+                "Thanks.": "start",
+                "I'll head there.": "start"
+            }
+        },
+        "warrior": {
+            "text": "Check the barracks by the castle.",
+            "responses": {
+                "I'll check there.": "start",
+                "Thanks.": "start"
+            }
+        },
+        "end": {
+            "text": "Safe travels, adventurer.",
+            "responses": {
+                "Farewell.": "end"
+            }
+        }
+    },
+    "lordGeneral": {
+        "start": {
+            "text": "What brings you here?",
+            "responses": {
+                "I seek your counsel.": "counsel",
+                "I have a request.": "request",
+                "Just passing by.": "passing"
+            }
+        },
+        "counsel": {
+            "text": "What troubles you?",
+            "responses": {
+                "Need advice.": "advice",
+                "Seeking wisdom.": "wisdom"
+            }
+        },
+        "request": {
+            "text": "Speak your request.",
+            "responses": {
+                "Help my village.": "village",
+                "Grant me a favor.": "favor"
+            }
+        },
+        "passing": {
+            "text": "Be on your way, then.",
+            "responses": {
+                "Thank you.": "end",
+                "Goodbye.": "end"
+            }
+        },
+        "advice": {
+            "text": "Consider all options carefully.",
+            "responses": {
+                "Thank you.": "start",
+                "Appreciated.": "start"
+            }
+        },
+        "wisdom": {
+            "text": "Wisdom is earned through experience.",
+            "responses": {
+                "Thank you.": "start",
+                "I'll remember that.": "start"
+            }
+        },
+        "village": {
+            "text": "I will send aid immediately.",
+            "responses": {
+                "Thank you.": "start",
+                "Grateful.": "start"
+            }
+        },
+        "favor": {
+            "text": "Consider it done.",
+            "responses": {
+                "Thank you.": "start",
+                "Much appreciated.": "start"
+            }
+        },
+        "end": {
+            "text": "Farewell, adventurer.",
+            "responses": {
+                "Farewell.": "end"
+            }
+        }
+    },
+    "adventurerGeneral": {
+        "start": {
+            "text": "Greetings! What brings you here?",
+            "responses": {
+                "Seeking adventure.": "adventure",
+                "Looking for work.": "work",
+                "Just passing through.": "passing"
+            }
+        },
+        "adventure": {
+            "text": "Adventure awaits! Are you ready?",
+            "responses": {
+                "Yes!": "ready",
+                "Maybe later.": "start"
+            }
+        },
+        "work": {
+            "text": "Plenty of work around. What are your skills?",
+            "responses": {
+                "Fighting.": "fighting",
+                "Crafting.": "crafting"
+            }
+        },
+        "passing": {
+            "text": "Safe travels, then.",
+            "responses": {
+                "Thank you.": "end",
+                "Goodbye.": "end"
+            }
+        },
+        "ready": {
+            "text": "Let's get started!",
+            "responses": {
+                "Onward!": "end",
+                "Wait, I need to prepare.": "start"
+            }
+        },
+        "fighting": {
+            "text": "Head to the barracks for combat training.",
+            "responses": {
+                "Thank you.": "start",
+                "Will do.": "start"
+            }
+        },
+        "crafting": {
+            "text": "The forge could use your skills.",
+            "responses": {
+                "Thank you.": "start",
+                "On my way.": "start"
+            }
+        },
+        "end": {
+            "text": "Goodbye, adventurer.",
+            "responses": {
+                "Farewell.": "end"
+            }
+        }
+    }
+}

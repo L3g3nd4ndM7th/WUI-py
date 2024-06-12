@@ -1,0 +1,52 @@
+{
+    "soldier": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "lawfulGood"
+    },
+    "archer": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "neutralGood"
+    },
+    "healer": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "neutralGood"
+    },
+    "knight": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "lawfulGood"
+    },
+    "hero": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "chaoticGood"
+    },
+    "goblin": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "chaoticEvil"
+    },
+    "skeleton": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "lawfulEvil"
+    },
+    "demon": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "chaoticEvil"
+    },
+    "occultist": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "neutralEvil"
+    },
+    "orc": {
+        "hitPoints": 18,
+        "attackDamage": 6,
+        "alignment": "chaoticEvil"
+    }
+}

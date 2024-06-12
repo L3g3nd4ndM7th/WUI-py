@@ -1,0 +1,81 @@
+{
+    "arthelm": {
+        "backgroundColor": "#7BBF6A",
+        "rooms": {
+            "arthelmTown": {
+                "region": "arthelm",
+                "id": "arthelmTown",
+                "type": "town",
+                "name": "Arthelm Town",
+                "description": "A bustling town with friendly folk.",
+                "n": {"room": "arthelmForest", "distance": 2},
+                "ne": {"room": "arthelmTower", "distance": 1},
+                "e": "",
+                "se": "",
+                "s": "",
+                "sw": "",
+                "w": "",
+                "nw": "",
+                "nodeColor": "brown",
+                "monsters": [],
+                "npcs": ["guide"]
+            },
+            "arthelmTower": {
+                "region": "arthelm",
+                "id": "arthelmTower",
+                "type": "tower",
+                "name": "Arthelm Tower",
+                "description": "A tall tower overlooking the town.",
+                "n": "",
+                "ne": "",
+                "e": "",
+                "se": "",
+                "s": "",
+                "sw": {"room": "arthelmTown", "distance": 1},
+                "w": "",
+                "nw": "",
+                "nodeColor": "grey",
+                "monsters": [],
+                "npcs": ["lord"]
+            },
+            "arthelmForest": {
+                "region": "arthelm",
+                "id": "arthelmForest",
+                "type": "forest",
+                "name": "Arthelm Forest",
+                "description": "A thick forest with towering trees.",
+                "n": "",
+                "ne": "",
+                "e": {"room": "arthelmCave", "distance": 1},
+                "se": "",
+                "s": {"room": "arthelmTown", "distance": 2},
+                "sw": "",
+                "w": "",
+                "nw": "",
+                "nodeColor": "green",
+                "monsters": [
+                    {"monsterID": "giantRat", "encounterProbability": 0.3},
+                    {"monsterID": "giantSpider", "encounterProbability": 0.2}
+                ],
+                "npcs": ["adventurer"]
+            },
+            "arthelmCave": {
+                "region": "arthelm",
+                "id": "arthelmCave",
+                "type": "cave",
+                "name": "Arthelm Cave",
+                "description": "A dark cave with hidden secrets.",
+                "n": "",
+                "ne": "",
+                "e": "",
+                "se": "",
+                "s": "",
+                "sw": "",
+                "w": {"room": "arthelmForest", "distance": 1},
+                "nw": "",
+                "nodeColor": "grey",
+                "monsters": []
+            }
+        }
+    }
+}

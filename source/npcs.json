@@ -1,0 +1,23 @@
+{
+    "guide": {
+        "currentRoom": "arthelmTown",
+        "id": "guide001",
+        "name": "Elara",
+        "description": "A wise and kind guide who helps travelers navigate the land.",
+        "dialogue": "guideGeneral"
+    },
+    "lord": {
+        "currentRoom": "arthelmTower",
+        "id": "lord001",
+        "name": "Lord Aric",
+        "description": "The lord ofArthelm, known for his wisdom and leadership.",
+        "dialogue": "lordGeneral"
+    },
+    "adventurer": {
+        "currentRoom": "arthelmForest",
+        "id": "adventurer001",
+        "name": "Thorne",
+        "description": "A brave adventurer seeking glory and treasure.",
+        "dialogue": "adventurerGeneral"
+    }
+}
